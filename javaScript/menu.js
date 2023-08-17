@@ -6,8 +6,8 @@ let arrayBack =["Resources/Back1.jpg","Resources/Back2.jpg","Resources/Back3.jpg
 let index = 0;
 
 window.onload = () =>{
-   
-   
+   img.style.background = `url(${arrayBack[0]})`
+   img.style.backgroundSize = "cover"
 }  
 
 
