@@ -29,7 +29,7 @@ async function fetchQuestions() {
         return;
     }
     try {
-        const response = await fetch(`https://192.168.2.21:8080/countrydream/api/question/${counter}`);
+        const response = await fetch(`http://192.168.2.21:8080/countrydream/api/question/${counter}`);
         const data = await response.json();
        
         populateAnswers(data.answers);
